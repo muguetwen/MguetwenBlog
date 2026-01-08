@@ -1,8 +1,10 @@
 # build output
-dist/
+# dist/
 
 # generated types
 .astro/
+.vscode/
+public/
 
 # dependencies
 node_modules/
@@ -22,3 +24,10 @@ pnpm-debug.log*
 
 # jetbrains setting folder
 .idea/
+
+src/
+
+astro.config.mjs
+package.json
+pnpm-lock.yaml
+tsconfig.json
